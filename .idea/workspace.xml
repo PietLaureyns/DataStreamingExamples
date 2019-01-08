@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="921e347a-1b6b-492a-85a0-c227a8c41386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Java9FlowExample/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AkkaStreamsTest/src/main/java/AverageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AkkaStreamsTest/src/main/java/DataImporter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AkkaStreamsTest/src/main/java/ParkingData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AkkaStreamsTest/src/main/java/UrlReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/Java Streaming Flow Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/Java Streaming Flow Example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAOccupiedParkingSpots.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAOccupiedParkingSpots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAvailability.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAvailability.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAvailabilityAndCapacity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAvailableParkingSpots.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/TotalAvailableParkingSpots.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalAvailableParkingSpots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/TotalOccupiedParkingSpots.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/TotalOccupiedParkingSpots.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/lib/gson-2.8.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/lib/gson-2.8.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/META-INF/Java Streaming Flow Example.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/META-INF/Java Streaming Flow Example.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/MyOtherSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/MyOtherSubscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/MyPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/MyPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/ParkingData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/ParkingData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/Subscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/out/production/Java Streaming Flow Example/SubscriberAbstract.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/out/production/Java Streaming Flow Example/SubscriberAbstract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/MyOtherSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/src/MyOtherSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/MyPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/src/MyPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/MySubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/src/MySubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/ParkingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/src/ParkingData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/src/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/src/SubscriberAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java9FlowExample/src/SubscriberAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Streaming Flow Example/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/JavaStreamingFlowTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStreamingFlowTest/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxJavaExample/subscriber1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxJavaExample/subscriber2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/SparkStreamingExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/src/main/java/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SparkStreamingExample/target/classes/WordCount.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java9FlowExample/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KafkaStreamsExample/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/MySubscriber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/ParkingData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/UrlReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SparkExample/src/main/java/WordCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java9FlowExample/src/MyPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Java Streaming Flow Example/src/MyPublisher.java" />
+        <option value="$PROJECT_DIR$/Java Streaming Flow Example/src/MySubscriber.java" />
+        <option value="$PROJECT_DIR$/Java Streaming Flow Example/src/Main.java" />
+        <option value="$PROJECT_DIR$/SparkExample/src/main/java/WordCount.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DataStreamingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStreamingExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStreamingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStreamingExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStreamingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStreamingExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStreamingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStreamingExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStreamingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStreamingExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546962604935" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="921e347a-1b6b-492a-85a0-c227a8c41386" name="Default Changelist" comment="" />
+      <created>1546961597487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546961597487</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AkkaStreamsTest/AkkaStreamsTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AkkaStreamsTest/src/main/java/UrlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AkkaStreamsTest/src/main/java/ParkingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AkkaStreamsTest/src/main/java/DataImporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AkkaStreamsTest/src/main/java/AverageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AkkaStreamsTest/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java9FlowExample/src/MySubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaStreamingFlowTest/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java9FlowExample/src/MyPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java9FlowExample/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaStreamsExample/src/main/java/MyConsumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaStreamsExample/src/main/java/MyProducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaStreamsExample/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/MySubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/ParkingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RxJavaExample/src/main/java/UrlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreamingExample/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkStreamingExample/src/main/java/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparkExample/src/main/java/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
